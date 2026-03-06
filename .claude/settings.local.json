@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo build:*)",
+      "Bash(curl:*)",
+      "Bash(sh:*)",
+      "Bash(source:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(open http://localhost:5174)",
+      "Bash(pkill:*)",
+      "WebFetch(domain:symbio-poc.lovable.app)",
+      "WebSearch",
+      "Bash(cargo doc:*)",
+      "Bash(open http://localhost:5174/)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(open http://localhost:5174/synthetic)",
+      "Bash(cargo check:*)"
+    ]
+  }
+}
